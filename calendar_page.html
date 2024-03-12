@@ -19,9 +19,37 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .holiday{
+        color: red;
+    }
+
+    .uposatha{
+        color: gold;
+    }
+
+    .holiday:hover{
+        color: blue;
+    }
+
+    .popup {
+  position: absolute;
+  z-index: 100;
+  width: 200px; /* Adjust size as needed */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: none; /* Hidden by default */
+  border-radius: 5px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
 </style>
 <body style="background-color:darkseagreen">
-    <h1>2025 Calendar of Buddhism</h1>
+    <a href="index.html"> <h1>2025 Calendar of Buddhism</h1></a>
     <h2>January 2025</h2>
     <table style="width: 70%">
         <tr>
@@ -45,7 +73,7 @@
         <tr>
             <td>5</td>
             <td>6
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>7</td>
             <td>8</td>
@@ -56,10 +84,10 @@
         <tr>
             <td>12</td>
             <td>13
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>14
-                Buddhist New Year
+                <span class="holiday newyear">Buddhist New Year</span>
             </td>
             <td>15</td>
             <td>16</td>
@@ -70,7 +98,7 @@
             <td>19</td>
             <td>20</td>
             <td>21
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>22</td>
             <td>23</td>
@@ -82,7 +110,7 @@
             <td>27</td>
             <td>28</td>
             <td>29
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>30</td>
             <td>31</td>
@@ -114,7 +142,7 @@
             <td>3</td>
             <td>4</td>
             <td>5
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>6</td>
             <td>7</td>
@@ -125,15 +153,17 @@
             <td>10</td>
             <td>11</td>
             <td>12
-                Uposatha
-                Navam Full Moon Poya Day
+                <span class="holiday uposatha">Uposatha</span>
+                <br>
+                <span class="holiday navam">Navam Full Moon Poya Day</span>
+                
             </td>
             <td>13
-                Magha Puja Day
+                <span class="holiday magha">Magha Puja Day</span>
             </td>
             <td>14</td>
             <td>15
-                Parinirvana Day
+                <span class="holiday parinirvana">Parinirvana Day</span>
             </td>
         </tr>
         <tr>
@@ -142,7 +172,7 @@
             <td>18</td>
             <td>19</td>
             <td>20
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>21</td>
             <td>22</td>
@@ -153,7 +183,7 @@
             <td>25</td>
             <td>26</td>
             <td>27
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>28</td>
             <td></td>
@@ -185,7 +215,7 @@
             <td>4</td>
             <td>5</td>
             <td>6
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>7</td>
             <td>8</td>
@@ -196,7 +226,7 @@
             <td>11</td>
             <td>12</td>
             <td>13
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>14</td>
             <td>15</td>
@@ -209,7 +239,7 @@
             <td>20</td>
             <td>21</td>
             <td>22
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
         </tr>
         <tr>
@@ -220,7 +250,7 @@
             <td>27</td>
             <td>28</td>
             <td>29
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
         </tr>
         <tr>
@@ -251,7 +281,7 @@
             <td>2</td>
             <td>3</td>
             <td>4
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>5</td>
         </tr>
@@ -263,12 +293,12 @@
             <td>10</td>
             <td>11</td>
             <td>12
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
         </tr>
         <tr>
             <td>13
-                Theravada New Year
+                <span class="holiday theravada">Theravada New Year</span>
             </td>
             <td>14</td>
             <td>15</td>
@@ -279,7 +309,7 @@
         </tr>
         <tr>
             <td>20
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>21</td>
             <td>22</td>
@@ -290,7 +320,7 @@
         </tr>
         <tr>
             <td>27
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>28</td>
             <td>29</td>
@@ -317,31 +347,33 @@
             <td></td>
             <td></td>
             <td>1
-                National Mantra Day
+                <span class="holiday mantra">National Mantra Day</span>
             </td>
             <td>2</td>
             <td>3</td>
         </tr>
         <tr>
             <td>4
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>5
-                Buddha Jayanti/Vesak
+                <span class="holiday vesak">Buddha Jayanti/Vesak</span>
+                
             </td>
             <td>6</td>
             <td>7</td>
             <td>8</td>
             <td>9
-                The Ploughing Festival
+                <span class="holiday ploughing">The Ploughing Festival</span>
+                
             </td>
             <td>10</td>
         </tr>
         <tr>
             <td>11</td>
             <td>12
-                Uposatha<br>
-                Buddha Day
+                <span class="holiday uposatha">Uposatha</span><br>
+                <span class="holiday buddha">Buddha Day</span>
             </td>
             <td>13</td>
             <td>14</td>
@@ -353,7 +385,7 @@
             <td>18</td>
             <td>19</td>
             <td>20
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>21</td>
             <td>22</td>
@@ -363,7 +395,7 @@
         <tr>
             <td>25</td>
             <td>26
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>27</td>
             <td>28</td>
@@ -386,7 +418,7 @@
         <tr>
             <td>1</td>
             <td>2
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>3</td>
             <td>4</td>
@@ -399,7 +431,7 @@
             <td>9</td>
             <td>10</td>
             <td>11
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>12</td>
             <td>13</td>
@@ -410,7 +442,7 @@
             <td>16</td>
             <td>17</td>
             <td>18
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>19</td>
             <td>20</td>
@@ -421,7 +453,7 @@
             <td>23</td>
             <td>24</td>
             <td>25
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>26</td>
             <td>27</td>
@@ -453,12 +485,13 @@
             <td></td>
             <td>1</td>
             <td>2
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>3</td>
             <td>4</td>
             <td>5
-                Guru Rinpoche Day
+                <span class="holiday guru">Guru Rinpoche Day</span>
+                
             </td>
         </tr>
         <tr>
@@ -467,8 +500,8 @@
             <td>8</td>
             <td>9</td>
             <td>10
-                Uposatha <br>
-                Dharma Day
+                <span class="holiday uposatha">Uposatha</span> <br>
+                <span class="holiday dharma">Dharma Day</span>
             </td>
             <td>11</td>
             <td>12</td>
@@ -479,7 +512,7 @@
             <td>15</td>
             <td>16</td>
             <td>17
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>18</td>
             <td>19</td>
@@ -490,7 +523,7 @@
             <td>22</td>
             <td>23</td>
             <td>24
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>25</td>
             <td>26</td>
@@ -523,7 +556,7 @@
             <td></td>
             <td></td>
             <td>1
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>2</td>
         </tr>
@@ -535,7 +568,7 @@
             <td>7</td>
             <td>8</td>
             <td>9
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
         </tr>
         <tr>
@@ -545,7 +578,7 @@
             <td>13</td>
             <td>14</td>
             <td>15
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>16</td>
         </tr>
@@ -556,7 +589,7 @@
             <td>20</td>
             <td>21</td>
             <td>22
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>23</td>
         </tr>
@@ -568,7 +601,7 @@
             <td>28</td>
             <td>29</td>
             <td>30
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
         </tr>
         <tr>
@@ -600,12 +633,13 @@
             <td>4</td>
             <td>5</td>
             <td>6
-                Ullamabana
+                <span class="holiday ullamabana">Ullamabana</span>
+                
             </td>
         </tr>
         <tr>
             <td>7
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>8</td>
             <td>9</td>
@@ -616,7 +650,7 @@
         </tr>
         <tr>
             <td>14
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>15</td>
             <td>16</td>
@@ -627,7 +661,7 @@
         </tr>
         <tr>
             <td>21
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>22</td>
             <td>23</td>
@@ -639,7 +673,7 @@
         <tr>
             <td>28</td>
             <td>29
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>30</td>
             <td></td>
@@ -671,7 +705,7 @@
         <tr>
             <td>5</td>
             <td>6
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>7</td>
             <td>8</td>
@@ -682,7 +716,7 @@
         <tr>
             <td>12</td>
             <td>13
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>14</td>
             <td>15</td>
@@ -694,7 +728,7 @@
             <td>19</td>
             <td>20</td>
             <td>21
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>22</td>
             <td>23</td>
@@ -706,7 +740,7 @@
             <td>27</td>
             <td>28</td>
             <td>29
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>30</td>
             <td>31</td>
@@ -738,10 +772,11 @@
             <td>3</td>
             <td>4</td>
             <td>5
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>6
-                Loy Krathong
+                <span class="holiday krathong">Loy Krathong</span>
+                
             </td>
             <td>7</td>
             <td>8</td>
@@ -750,7 +785,7 @@
             <td>9</td>
             <td>10</td>
             <td>11
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>12</td>
             <td>13</td>
@@ -762,7 +797,7 @@
             <td>17</td>
             <td>18</td>
             <td>19
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>20</td>
             <td>21</td>
@@ -774,7 +809,7 @@
             <td>25</td>
             <td>26</td>
             <td>27
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>28</td>
             <td>29</td>
@@ -806,7 +841,7 @@
             <td>2</td>
             <td>3</td>
             <td>4
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>5</td>
             <td>6</td>
@@ -814,12 +849,12 @@
         <tr>
             <td>7</td>
             <td>8
-                Bodhi Day
+                <span class="holiday bodhi">Bodhi Day</span>
             </td>
             <td>9</td>
             <td>10</td>
             <td>11
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>12</td>
             <td>13</td>
@@ -831,7 +866,7 @@
             <td>17</td>
             <td>18</td>
             <td>19
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
             <td>20</td>
         </tr>
@@ -843,7 +878,7 @@
             <td>25</td>
             <td>26</td>
             <td>27
-                Uposatha
+                <span class="holiday uposatha">Uposatha</span>
             </td>
         </tr>
         <tr>
@@ -856,6 +891,77 @@
             <td></td>
         </tr>
     </table>
+
+    <script>
+        holiday_descriptions = {
+            "newyear" : "On the Buddhist New Year, people visit temples, perform Buddhist rituals, make offerings, and complete other acts of merit. A common tradition is to wash away sins and bad luck from the past year with water in the new year. Water fights and water blessings are a large component of this as well.",
+            "uposatha": "Uposatha days occur four times a month and correspond to the four phases of the moon: new moon, full moon, and two-quarter moons. Buddhists normally visit temples and meditate on Uposatha Days.",
+            "navam": "Celebrates the first-ever Buddhist Council, and the appointment of Buddha’s two chief disciples. This celebration is often observed in Cambodia, Laos, Thailand, Sri Lanka, and Tabaung. This holiday is celebrated on the full moon day in February, which will be the 12th of February in 2025",
+            "magha": "Magha Puja Day is celebrated on the full moon of the third lunar month of the lunar year. Buddhists often visit the temple to practice merit-making activities and give alms to celebrate Magha Puja Day.",
+            "parinirvana":"Parinirvana day is often seen and celebrated as a social occasion, where Buddhists prepare food, and bring presents including clothes, money, and other household items.",
+            "theravada":"On the Buddhist New Year, people visit temples, perform Buddhist rituals, make offerings, and complete other acts of merit. A common tradition is to wash away sins and bad luck from the past year with water in the new year. Water fights and water blessings are a large component of this as well.",
+            "mantra":"On this day, people say their mantra to invoke positive energy. The holiday aims to foster self-love and positivity, uplift spirits, and elevate the mind.",
+            "vesak":"Buddha Jayanti is the celebration of the Buddha’s birthday, following the lunar calendar",
+            "ploughing":"The celebration of the Buddha's first moment of enlightenment is referred to as The Ploughing Festival. This festival celebrates the start of the rice growing season as well.",
+            "buddha":"Buddha Day celebrates the birth, enlightenment, and death of the historical Buddha, Siddhartha Gautama. Buddhists celebrate Buddha Day by visiting temples, making offerings, doing acts of charity, and onwards. Some also celebrate with parades, cultural performances, and decorating temples with lights.",
+            "guru":"Celebrates the birth of Guru Rinpoche, a respected Tibetan Buddhist master who originated on the Indian subcontinent. He is credited with bringing Buddhism to Bhutan and is regarded as a “second Buddha” in Tibetan Buddhism. Also known as Guru Padmasambhava, he was instrumental in disseminating Buddhism throughout Asia, particularly in Tibet and Bhutan. Tenth day of the sixth lunar month",
+            "dharma":"Dhamma Day celebrates the first teaching of the Buddha, known as the “Turning of the Wheel of Dharma”",
+            "ullamabana":"Aka the ghost festival, in which people celebrate their dead loved ones, because they believe the spirits of their loved ones will return to the land of living one day.",
+            "krathong":"Buddhist festival that takes place in Thailand when the rivers and canals are full of water on the full moon of the twelfth lunar month",
+            "bodhi":"A Buddhist holiday that celebrates the day when Siddhartha Gautama achieved enlightenment under the Bodhi Tree, hence the holiday's name. On Bodhi Day, Buddhists celebrate through chanting, meditating, and reading sutras to honor the awakening of the Buddha."
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+  // Create the popup element and add it to the body
+  const popup = document.createElement('div');
+  popup.className = 'popup';
+  document.body.appendChild(popup);
+
+  // Function to show the popup
+  const showPopup = (event) => {
+    const holidayName = event.target.className.split(' ')[1]; // Get the holiday name class
+    // Update popup content. Customize this based on your needs or data structure.
+    // This is a basic example; you might fetch this info from a data attribute or external source.
+    popup.textContent = holiday_descriptions[holidayName] || 'No description available';
+    // Position the popup. Adjust as needed.
+    popup.style.left = event.pageX + 'px';
+    popup.style.top = event.pageY + 'px';
+    popup.style.display = 'block'; // Show the popup
+  };
+
+  // Function to hide the popup
+  const hidePopup = () => {
+    popup.style.display = 'none'; // Hide the popup
+  };
+
+  // Attach event listeners to elements with the 'holiday' class
+  document.querySelectorAll('.holiday').forEach(holiday => {
+    holiday.addEventListener('mouseenter', showPopup);
+    holiday.addEventListener('mouseleave', hidePopup);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('moon phase images loaded!');
+  // Array of moon phase image filenames
+  const moonPhases = ['last-quarter.png', 'full-moon.png', 'first-quarter.png', 'new-moon.png', ];
+  // Select all elements with the 'Uposatha' class
+  const uposathaElements = document.querySelectorAll('.uposatha');
+  
+  // Function to generate the HTML string for the moon phase image
+  const getMoonPhaseImageHtml = (phaseImage) => `<img src="moon/${phaseImage}" alt="Moon phase" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;">`;
+
+  // Iterate over each Uposatha element and add a moon phase image
+  uposathaElements.forEach((element, index) => {
+    // Cycle through the moonPhases array based on the current index
+    const moonPhaseImage = moonPhases[index % moonPhases.length];
+    // Generate the image HTML and prepend it to the current element's content
+    element.innerHTML = getMoonPhaseImageHtml(moonPhaseImage) + element.innerHTML;
+  });
+});
+
+
+    </script>
 
 </body>
 </html>
